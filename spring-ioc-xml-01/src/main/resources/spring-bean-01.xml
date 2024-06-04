@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--实验一 配置创建bean信息-->
+    <!--使用无参构造方法创建bean-->
+    <bean id="happyComponent" class="com.ioc.XML.excp1.HappyComponent"/>
+    <!--使用静态工厂创建bean-->
+    <bean id="clientService" class="com.ioc.XML.excp1.ClientService" factory-method="createInstance"/>
+    <!--使用实例工厂方法实例化-->
+    <!--先把工厂放到ioc容器里面-->
+    <bean id="defaultServiceLocator" class="com.ioc.XML.excp1.DefaultServiceLocator"/>
+    <!--然后通过实例工厂获取产品类-->
+    <bean id="clientServiceImpl" factory-bean="defaultServiceLocator" factory-method="createClientServiceInstance"/>
+
+</beans>

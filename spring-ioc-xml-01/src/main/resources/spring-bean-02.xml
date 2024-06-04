@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userDao" class="com.ioc.XML.excp2.UserDao"/>
+    <bean id="userService1" class="com.ioc.XML.excp2.UserService1">
+        <constructor-arg ref="userDao"/>
+    </bean>
+
+    <!--
+
+     <bean id="userDao" class="com.ioc.XML.excp2.UserDao"/>
+            <bean id="userService2" class="com.ioc.XML.excp2.UserService2" >
+                <constructor-arg value="18"/>
+                <constructor-arg value="赵伟风"/>
+                <constructor-arg ref="userDao"/>
+            </bean>
+
+        <bean id="userService" class="com.ioc.XML.excp2.UserService2">
+                <constructor-arg name="age" value="18"/>
+                <constructor-arg name="name" value="刘志"/>
+                <constructor-arg name="userDao" ref="userDao"/>
+            </bean>
+
+<beans>
+
+    <bean id="movieFinder" class="com.ioc.XML.excp2.MovieFinder"/>
+
+    <bean id="simpleMovieLister" class="com.ioc.XML.excp2.SimpleMovieLister" >
+
+        <property name="movieFinder" ref="movieFinder"/>
+        <property name="movieName " value="古筝人"/>
+    </bean>
+</beans>
+
+
+   -->
+
+</beans>
