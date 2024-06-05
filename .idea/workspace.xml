@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="Spring" />
+      <module name="spring-ioc-xml-01" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/CommonComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/MyDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/resources/Spring-ioc-packge-01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/test/java/AnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-xml-practice-02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-xml-practice-02/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\MySoft\Develop\Maven\apache-maven-3.9.6\mvn_repository" />
+        <option name="mavenHome" value="D:\MySoft\Develop\Maven\apache-maven-3.9.6" />
+        <option name="userSettingsFile" value="D:\MySoft\Develop\Maven\apache-maven-3.9.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2hPouUljhHhp3N6RsmbUQJrp6aF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AnnotationTest.annotationTest.executor": "Run",
+    "JUnit.IocTest.getBean.executor": "Run",
+    "JUnit.JdbcTemplateTest.jdbcTemplateTest.executor": "Run",
+    "JUnit.JdbcTemplateTest.testDql.executor": "Run",
+    "JUnit.JdbcTemplateTest.testDqlList.executor": "Run",
+    "JUnit.MVCTest.query.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WorkSpace/MyProject/JavaProject/Idea_Project/Spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\Spring\spring-xml-practice-02" />
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\Spring\spring-xml-practice-02\src" />
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\Spring\spring-ioc-xml-01\src\main\java\com\hrc\ioc\XML" />
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\Spring\spring-ioc-xml-01\src\main\java\com\hrc\iocXML" />
+      <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\Spring\spring-ioc-xml-01\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AnnotationTest.annotationTest">
+    <configuration name="AnnotationTest.annotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-annotation-03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationTest" />
+      <option name="METHOD_NAME" value="annotationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateTest.jdbcTemplateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-xml-practice-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrc.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hrc.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.hrc.jdbc.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="jdbcTemplateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateTest.testDql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-xml-practice-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrc.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hrc.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.hrc.jdbc.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="testDql" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdbcTemplateTest.testDqlList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-xml-practice-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrc.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hrc.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.hrc.jdbc.JdbcTemplateTest" />
+      <option name="METHOD_NAME" value="testDqlList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MVCTest.query" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-xml-practice-02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hrc.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hrc.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.hrc.jdbc.MVCTest" />
+      <option name="METHOD_NAME" value="query" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnnotationTest.annotationTest" />
+        <item itemvalue="JUnit.MVCTest.query" />
+        <item itemvalue="JUnit.JdbcTemplateTest.testDqlList" />
+        <item itemvalue="JUnit.JdbcTemplateTest.testDql" />
+        <item itemvalue="JUnit.JdbcTemplateTest.jdbcTemplateTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-3183f394aec4-734fdc6e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="" />
+      <created>1717504448576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717504448576</updated>
+      <workItem from="1717504449698" duration="812000" />
+      <workItem from="1717505298702" duration="39000" />
+      <workItem from="1717505355582" duration="1244000" />
+      <workItem from="1717510341754" duration="2350000" />
+      <workItem from="1717572570799" duration="4884000" />
+      <workItem from="1717580167482" duration="7000" />
+      <workItem from="1717588807715" duration="3836000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
