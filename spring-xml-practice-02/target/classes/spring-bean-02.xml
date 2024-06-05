@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--读取配置文件-->
+    <context:property-placeholder location="practice.properties"/>
+    <!--先搞一个德鲁伊连接池-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <!--从配置文件里读取然后注入连接-->
+        <property name="url" value="${atguigu.url}"/>
+        <property name="driverClassName" value="${atguigu.driver}"/>
+        <property name="username" value="${atguigu.username}"/>
+        <property name="password" value="${atguigu.password}"/>
+    </bean>
+
+    <!--搞一个jdbc的bean-->
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <!--注入连接池-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--dao层的bean对象-->
+    <bean id="daoImp" class="com.hrc.dao.StudentDaoImp">
+        <!--set注入属性jdbc-->
+        <property name="jdbc" ref="jdbcTemplate"/>
+    </bean>
+
+    <!--service层的bean对象-->
+    <bean id="studentServiceImp" class="com.hrc.service.StudentServiceImp">
+        <!--注入dao层的bean-->
+        <property name="dao" ref="daoImp"/>
+    </bean>
+
+    <!--controller层的bean对象-->
+    <bean id="controller" class="com.hrc.controller.Controller">
+        <!--注入service的bean-->
+        <property name="service" ref="studentServiceImp"/>
+    </bean>
+
+    <!--所有配置都完成了-->
+</beans>

@@ -1,4 +1,4 @@
-package com.hrc.Ioc_DiExample;
+package com.hrc.pojo;
 
 public class Student {
 
