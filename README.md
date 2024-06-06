@@ -134,7 +134,7 @@
 
 ##### 你可在注解后面指定value属性来设置bean的类名
 
-##### DI配置步骤:
+##### 引用DI配置步骤:
 
 - 将你要注入的所有类装配进入ioc容器
 - 在你要注入的属性上面添加@Autowired注解
@@ -155,3 +155,19 @@
 如果注解下是一个接口，接口有多个实现类就会出现多个bean对象的异常抛出
 
 ##### 扩展JSR-250注解@Resource，这个注解就相当于：@Autowired + @Qualifier
+
+##### 基本类型DI配置：
+
+- 1、直接将值赋给基础类型
+
+- 2、使用value可以获取外部配置文件里的值，但是需要在xml文件里读取外部配置文件，然后使用value注解获取配置文件里的值
+
+  ```
+  <!--读取配置文件-->
+      <context:property-placeholder location="value.properties"/>
+      
+  @Value("${value.username}")
+      private  String username;
+  ```
+
+  

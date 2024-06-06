@@ -10,22 +10,14 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc02/controller/SoldierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc02/dao/SoldierDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc02/dao/SoldierDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc02/dao/SoldierServiceImp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc02/service/SoldierService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc02/service/SoldierServiceImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="使用注解配置ioc/di学习完成代码提交">
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc3/ValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/resources/value.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/CommonComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc01/CommonComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc01/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/MyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc01/MyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/java/com/hrc/ioc01/MyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/resources/Spring-ioc-packge-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/main/resources/Spring-ioc-packge-01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/src/test/java/AnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/src/test/java/AnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/target/classes/Spring-ioc-packge-01.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/target/classes/Spring-ioc-packge-01.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-ioc-annotation-03/target/test-classes/AnnotationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-ioc-annotation-03/target/test-classes/AnnotationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +58,14 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.AnnotationTest.annotationTest.executor": "Run",
     "JUnit.AnnotationTest.autoWiredTest.executor": "Run",
+    "JUnit.AnnotationTest.valuePrint.executor": "Run",
     "JUnit.IocTest.getBean.executor": "Run",
     "JUnit.JdbcTemplateTest.jdbcTemplateTest.executor": "Run",
     "JUnit.JdbcTemplateTest.testDql.executor": "Run",
@@ -109,7 +103,7 @@
       <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\Spring\spring-ioc-xml-01\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AnnotationTest.autoWiredTest">
+  <component name="RunManager" selected="JUnit.AnnotationTest.valuePrint">
     <configuration name="AnnotationTest.annotationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-ioc-annotation-03" />
       <option name="PACKAGE_NAME" value="" />
@@ -130,17 +124,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JdbcTemplateTest.testDql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-xml-practice-02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hrc.jdbc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hrc.jdbc" />
-      <option name="MAIN_CLASS_NAME" value="com.hrc.jdbc.JdbcTemplateTest" />
-      <option name="METHOD_NAME" value="testDql" />
+    <configuration name="AnnotationTest.valuePrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-ioc-annotation-03" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AnnotationTest" />
+      <option name="METHOD_NAME" value="valuePrint" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnnotationTest.valuePrint" />
         <item itemvalue="JUnit.AnnotationTest.autoWiredTest" />
         <item itemvalue="JUnit.AnnotationTest.annotationTest" />
         <item itemvalue="JUnit.MVCTest.query" />
         <item itemvalue="JUnit.JdbcTemplateTest.testDqlList" />
-        <item itemvalue="JUnit.JdbcTemplateTest.testDql" />
       </list>
     </recent_temporary>
   </component>
@@ -224,8 +212,18 @@
       <workItem from="1717636857921" duration="2114000" />
       <workItem from="1717660451200" duration="593000" />
       <workItem from="1717667507011" duration="1182000" />
-      <workItem from="1717686377453" duration="1570000" />
+      <workItem from="1717686377453" duration="1841000" />
+      <workItem from="1717688880518" duration="1106000" />
     </task>
+    <task id="LOCAL-00001" summary="使用注解配置ioc/di学习完成代码提交">
+      <option name="closed" value="true" />
+      <created>1717688157477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717688157477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="学习使用注解配置ioc完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="使用注解配置ioc/di学习完成代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用注解配置ioc/di学习完成代码提交" />
   </component>
 </project>

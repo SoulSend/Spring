@@ -9,5 +9,7 @@
          3.多个包可以使用,分割 例如: com.atguigu.controller,com.atguigu.service等
     -->
     <context:component-scan base-package="com.hrc"/>
+    <!--读取配置文件-->
+    <context:property-placeholder location="value.properties"/>
 
 </beans>
