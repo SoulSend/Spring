@@ -10,22 +10,7 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="使用value配置基本类型属性学习完毕代码提交">
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/java/com/hrc/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/java/com/hrc/dao/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/java/com/hrc/dao/StudentDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/java/com/hrc/pojo/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/java/com/hrc/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/java/com/hrc/service/StudentServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/resources/practice.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/main/resources/spring-bean-01.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-ioc-annotation-practice-04/src/test/java/ControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="使用注解和xml配置文件来整合三层架构实验完成代码提交" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -220,7 +205,7 @@
       <workItem from="1717688880518" duration="1157000" />
       <workItem from="1717765980402" duration="599000" />
       <workItem from="1717770787920" duration="605000" />
-      <workItem from="1717811215776" duration="2924000" />
+      <workItem from="1717811215776" duration="3225000" />
     </task>
     <task id="LOCAL-00001" summary="使用注解配置ioc/di学习完成代码提交">
       <option name="closed" value="true" />
@@ -238,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717690033280</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="使用注解和xml配置文件来整合三层架构实验完成代码提交">
+      <option name="closed" value="true" />
+      <created>1717814420931</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717814420931</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +241,7 @@
     <MESSAGE value="学习使用注解配置ioc完成" />
     <MESSAGE value="使用注解配置ioc/di学习完成代码提交" />
     <MESSAGE value="使用value配置基本类型属性学习完毕代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用value配置基本类型属性学习完毕代码提交" />
+    <MESSAGE value="使用注解和xml配置文件来整合三层架构实验完成代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用注解和xml配置文件来整合三层架构实验完成代码提交" />
   </component>
 </project>
