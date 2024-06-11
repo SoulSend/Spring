@@ -28,7 +28,7 @@
 
 - 然后在xml文件中使用 <bean> 标签配置你要放入容器的类案例：
 
-  ```
+  ```xml
   <?xml version="1.0" encoding="UTF-8"?>
   <beans xmlns="http://www.springframework.org/schema/beans"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -89,7 +89,7 @@
 
 - 在不同的项目层面会有不同的注解，功能都是一模一样的，仅仅只是名字不一样，为了方便程序员标识不同的项目层次：
 
-  ```
+  ```txt
   @Component：该注解用于描述 Spring 中的 Bean，它是一个泛化的概念，仅仅表示容器中的一个组件（Bean），并且可以作用在应用的任何层次，例如 Service 层、Dao 层等。 使用时只需将该注解标注在相应类上即可。
   
   @Repository：该注解用于将数据访问层（Dao 层）的类标识为 Spring 中的 Bean，其功能与 @Component 相同。
@@ -104,7 +104,7 @@
 
 - 配置包扫描
 
-  ```
+  ```xml
   <!-- 配置自动扫描的包 -->
       <!-- 1.包要精准,提高性能!
            2.会扫描指定的包和子包内容
@@ -162,7 +162,7 @@
 
 - 2、使用value可以获取外部配置文件里的值，但是需要在xml文件里读取外部配置文件，然后使用value注解获取配置文件里的值
 
-  ```
+  ```XML
   <!--读取配置文件-->
       <context:property-placeholder location="value.properties"/>
       
@@ -188,3 +188,56 @@
 在配置类的内部，使用@bean标签来标注一个组件，这个注解放在一个方法上，方法的返回值就是bean的类型，方法名就是bean的id。在这个方法里使用你的方法，不管是构造器还是工厂类来构建一个bean对象，同时使用setter方法来进行初始化。
 
 读取配置类以后，要使用变量装配配置文件里的值，可以先使用Value注解将值赋给一个普通变量，然后通过set方法传参将这个变量注入到对应的bean对象里
+
+##### @Import注解的使用
+
+@Import 注释允许从另一个配置类加载 @Bean 定义，如以下示例所示：
+
+```java
+@Configuration
+public class ConfigA {
+
+  @Bean
+  public A a() {
+    return new A();
+  }
+}
+
+@Configuration
+@Import(ConfigA.class)
+public class ConfigB {
+
+  @Bean
+  public B b() {
+    return new B();
+  }
+}
+```
+
+现在，在实例化上下文时不需要同时指定 ConfigA.class 和 ConfigB.class ，只需显式提供 ConfigB ，如以下示例所示：
+
+```java
+public static void main(String[] args) {
+  ApplicationContext ctx = new AnnotationConfigApplicationContext(ConfigB.class);
+
+  // now both beans A and B will be available...
+  A a = ctx.getBean(A.class);
+  B b = ctx.getBean(B.class);
+}
+```
+
+此方法简化了容器实例化，因为只需要处理一个类，而不是要求您在构造期间记住可能大量的 @Configuration 类。
+
+#### AOP面向切面编程
+
+**使用场景：**当一个类的很多个方法都要添加一个相同的逻辑功能的时候，如果我们依次为每个方法添加，这样的效率非常低，且维护成本高，且代码耦合度也很高，这时我们你想了一个办法，将相同的逻辑提炼出来，当调用一个方法的时候，将这个提炼出来的逻辑动态的加入到这个方法中，这个就是AOP面向切面编程。
+
+##### 代理模式：类似房客-----中介-----房东的关系，我们把一个方法的核心逻辑提取出来，非核心逻辑（日志之类的）放到代理类里。这样做的好处：
+
+```
+代理模式提供了一种结构化的方法来处理这些逻辑，使得代码更加模块化和易于管理。此外，代理模式允许在不修改目标对象的情况下，通过修改代理类来添加或更改非核心逻辑，这在某些情况下可以大大简化开发和维护工作。
+```
+
+**静态代理：**核心逻辑放到目标类的里面，然后代理类拥有一个目标类，我们直接调用代理类的对应的方法，在代理类里面，先有代理类执行非核心逻辑，再由代理类调用本身拥有的目标类的方法，执行核心逻辑。就是这么简单。
+
+**动态代理：**动态代理是一种在运行时动态创建代理对象的代理模式。

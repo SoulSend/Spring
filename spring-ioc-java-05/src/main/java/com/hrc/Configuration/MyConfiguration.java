@@ -1,6 +1,7 @@
 package com.hrc.Configuration;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -17,6 +18,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 //配置文件扫描
 @PropertySource("classpath:practice.properties")
 public class MyConfiguration {
+
     @Value("${atguigu.url}")
     private String url;
     @Value("${atguigu.driver}")
