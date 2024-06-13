@@ -10,19 +10,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="aop动态代理学习完毕代码提交，同时完成readme文档Aop编程思想的编写">
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/advice/LogAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/advice/MyAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/config/AopConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/service/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/service/imp/CalculatorImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/test/java/SpringAopTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="SpringAOP所有知识学习完毕，代码及文档提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +213,7 @@
       <workItem from="1718029721751" duration="2595000" />
       <workItem from="1718094845762" duration="3211000" />
       <workItem from="1718195974269" duration="781000" />
-      <workItem from="1718268423665" duration="6039000" />
+      <workItem from="1718268423665" duration="6384000" />
     </task>
     <task id="LOCAL-00001" summary="使用注解配置ioc/di学习完成代码提交">
       <option name="closed" value="true" />
@@ -274,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718196572554</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="SpringAOP所有知识学习完毕，代码及文档提交">
+      <option name="closed" value="true" />
+      <created>1718281066823</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718281066823</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,6 +285,7 @@
     <MESSAGE value="配置类学习完毕代码提交" />
     <MESSAGE value="aop静态代理学习完毕代码提交" />
     <MESSAGE value="aop动态代理学习完毕代码提交，同时完成readme文档Aop编程思想的编写" />
-    <option name="LAST_COMMIT_MESSAGE" value="aop动态代理学习完毕代码提交，同时完成readme文档Aop编程思想的编写" />
+    <MESSAGE value="SpringAOP所有知识学习完毕，代码及文档提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringAOP所有知识学习完毕，代码及文档提交" />
   </component>
 </project>
