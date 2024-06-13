@@ -10,12 +10,19 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="aop静态代理学习完毕代码提交">
-      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-06/src/main/java/com/hrc/dynamicproxy/ProxyFactory.java" afterDir="false" />
+    <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="aop动态代理学习完毕代码提交，同时完成readme文档Aop编程思想的编写">
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/advice/LogAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/advice/MyAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/config/AopConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/service/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/main/java/com/hrc/service/imp/CalculatorImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-aop-annotation-07/src/test/java/SpringAopTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-aop-annotation-06/src/test/java/AopTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop-annotation-06/src/test/java/AopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +79,7 @@
     "JUnit.JdbcTemplateTest.testDql.executor": "Run",
     "JUnit.JdbcTemplateTest.testDqlList.executor": "Run",
     "JUnit.MVCTest.query.executor": "Run",
+    "JUnit.SpringAopTest.calcTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -108,17 +116,7 @@
       <recent name="pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AopTest.dynamicProxyTest">
-    <configuration name="AnnotationTest.valuePrint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-annotation-03" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AnnotationTest" />
-      <option name="METHOD_NAME" value="valuePrint" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SpringAopTest.calcTest">
     <configuration name="AopTest.dynamicProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-aop-annotation-06" />
       <option name="PACKAGE_NAME" value="" />
@@ -159,6 +157,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringAopTest.calcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-aop-annotation-07" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SpringAopTest" />
+      <option name="METHOD_NAME" value="calcTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringAopTest.calcTest" />
         <item itemvalue="JUnit.AopTest.dynamicProxyTest" />
         <item itemvalue="JUnit.AopTest.staticProxyTest" />
         <item itemvalue="JUnit.ConfigurationTest.configTest" />
         <item itemvalue="JUnit.ControllerTest.testRun" />
-        <item itemvalue="JUnit.AnnotationTest.valuePrint" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +223,8 @@
       <workItem from="1717942908406" duration="594000" />
       <workItem from="1718029721751" duration="2595000" />
       <workItem from="1718094845762" duration="3211000" />
-      <workItem from="1718195974269" duration="528000" />
+      <workItem from="1718195974269" duration="781000" />
+      <workItem from="1718268423665" duration="6039000" />
     </task>
     <task id="LOCAL-00001" summary="使用注解配置ioc/di学习完成代码提交">
       <option name="closed" value="true" />
@@ -257,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718099045244</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="aop动态代理学习完毕代码提交，同时完成readme文档Aop编程思想的编写">
+      <option name="closed" value="true" />
+      <created>1718196572554</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718196572554</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +287,7 @@
     <MESSAGE value="使用注解和xml配置文件来整合三层架构实验完成代码提交" />
     <MESSAGE value="配置类学习完毕代码提交" />
     <MESSAGE value="aop静态代理学习完毕代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="aop静态代理学习完毕代码提交" />
+    <MESSAGE value="aop动态代理学习完毕代码提交，同时完成readme文档Aop编程思想的编写" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop动态代理学习完毕代码提交，同时完成readme文档Aop编程思想的编写" />
   </component>
 </project>
