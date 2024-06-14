@@ -11,7 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20702a08-65d8-433c-a22b-c6a2c3ea04e3" name="更改" comment="SpringAOP所有知识学习完毕，代码及文档提交">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-08/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-08/src/main/java/com/hrc/config/myConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-08/src/main/java/com/hrc/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-08/src/main/java/com/hrc/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-08/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-tx-annotation-08/src/test/java/TestTx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,44 +65,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AnnotationTest.annotationTest.executor": "Run",
-    "JUnit.AnnotationTest.autoWiredTest.executor": "Run",
-    "JUnit.AnnotationTest.valuePrint.executor": "Run",
-    "JUnit.AopTest.dynamicProxyTest.executor": "Run",
-    "JUnit.AopTest.staticProxyTest.executor": "Run",
-    "JUnit.ConfigurationTest.configTest.executor": "Run",
-    "JUnit.ControllerTest.testRun.executor": "Run",
-    "JUnit.IocTest.getBean.executor": "Run",
-    "JUnit.JdbcTemplateTest.jdbcTemplateTest.executor": "Run",
-    "JUnit.JdbcTemplateTest.testDql.executor": "Run",
-    "JUnit.JdbcTemplateTest.testDqlList.executor": "Run",
-    "JUnit.MVCTest.query.executor": "Run",
-    "JUnit.SpringAopTest.calcTest.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "17",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/WorkSpace/MyProject/JavaProject/Idea_Project/Spring/spring-ioc-java-05/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "模块",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.AnnotationTest.annotationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AnnotationTest.autoWiredTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AnnotationTest.valuePrint.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AopTest.dynamicProxyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AopTest.staticProxyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ConfigurationTest.configTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ControllerTest.testRun.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.IocTest.getBean.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTemplateTest.jdbcTemplateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTemplateTest.testDql.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JdbcTemplateTest.testDqlList.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MVCTest.query.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringAopTest.calcTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestTx.testService.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/WorkSpace/MyProject/JavaProject/Idea_Project/Spring/spring-ioc-java-05/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\WorkSpace\MyProject\JavaProject\Idea_Project\Spring\spring-ioc-java-05\src\main\resources" />
@@ -105,7 +118,7 @@
       <recent name="pojo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringAopTest.calcTest">
+  <component name="RunManager" selected="JUnit.TestTx.testService">
     <configuration name="AopTest.dynamicProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-aop-annotation-06" />
       <option name="PACKAGE_NAME" value="" />
@@ -136,21 +149,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ControllerTest.testRun" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-ioc-annotation-practice-04" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ControllerTest" />
-      <option name="METHOD_NAME" value="testRun" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpringAopTest.calcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-aop-annotation-07" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SpringAopTest" />
       <option name="METHOD_NAME" value="calcTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTx.testService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-tx-annotation-08" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestTx" />
+      <option name="METHOD_NAME" value="testService" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestTx.testService" />
         <item itemvalue="JUnit.SpringAopTest.calcTest" />
         <item itemvalue="JUnit.AopTest.dynamicProxyTest" />
         <item itemvalue="JUnit.AopTest.staticProxyTest" />
         <item itemvalue="JUnit.ConfigurationTest.configTest" />
-        <item itemvalue="JUnit.ControllerTest.testRun" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +227,8 @@
       <workItem from="1718094845762" duration="3211000" />
       <workItem from="1718195974269" duration="781000" />
       <workItem from="1718268423665" duration="6384000" />
+      <workItem from="1718334243530" duration="4391000" />
+      <workItem from="1718351184476" duration="966000" />
     </task>
     <task id="LOCAL-00001" summary="使用注解配置ioc/di学习完成代码提交">
       <option name="closed" value="true" />

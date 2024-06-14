@@ -16,6 +16,7 @@
         <module>spring-ioc-java-05</module>
         <module>spring-aop-annotation-06</module>
         <module>spring-aop-annotation-07</module>
+        <module>spring-tx-annotation-08</module>
     </modules>
 
     <properties>
@@ -54,6 +55,13 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.2.8</version>
+        </dependency>
+
+        <!--声明式事务的依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-tx</artifactId>
+            <version>6.0.6</version>
         </dependency>
 
         <!-- spring-jdbc -->

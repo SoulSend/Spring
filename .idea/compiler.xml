@@ -13,6 +13,7 @@
         <module name="spring-aop-annotation-06" />
         <module name="spring-aop-annotation-07" />
         <module name="spring-ioc-annotation-03" />
+        <module name="spring-tx-annotation-08" />
       </profile>
     </annotationProcessing>
   </component>
